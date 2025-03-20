@@ -9,15 +9,15 @@ Este projeto em Python permite realizar buscas de CEP e Endereços utilizando a 
 
 ## Exemplo de Busca por CEP
 
-Aqui está um exemplo de tabela gerada com os endereços encontrados. Veja o print do funcionamento:
+Aqui está um exemplo com o endereço encontrado com o CEP:
 
-![Exemplo de Busca CEP](buscar_cep.png)
+![Exemplo de Busca Endereço](encontrar_endereco.png)
 
 ## Exemplo de Busca por Endereço
 
-Agora, vamos ver o resultado da busca por CEP com o estado, cidade e logradouro:
+Ao buscar um endereço (com UF, cidade e logradouro), o programa retorna uma lista de CEPs encontrados que correspondem ao endereço informado. Aqui está um exemplo do funcionamento da busca de um endereço, onde o sistema retorna múltiplos CEPs com os respectivos logradouros, bairros e cidades.
 
-![Exemplo de Busca Endereço](buscar_endereco.png)
+![Exemplo de Busca CEP](encontrar_cep.png)
 
 ## Tecnologias Utilizadas
 
