@@ -124,4 +124,4 @@ def buscar_endereco(uf:str, cidade:str, endereco:str):
         else:
             print("❌ Nenhum endereço encontrado.")
     except requests.exceptions.RequestException:
-        print("❌ Erro de conexão.")
+        print("❌ Erro de conexão. ")
